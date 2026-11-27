@@ -17,18 +17,18 @@ DELETE_AFTER = 90  # 1 min 30 sec
 STORE_FILE = "greetings.json"
 
 DEFAULT_WELCOME = (
-    "🎉 Welcome to the group, {mention}!\n\n"
+    "🩸⚔️ 𝐎 𝐃𝐔𝐌𝐀𝐓𝐈𝐍𝐆 𝐍𝐀 𝐍𝐀𝐌𝐀𝐍 𝐘𝐔𝐍𝐆 𝐏𝐈𝐍𝐀𝐊𝐀 𝐖𝐀𝐋𝐀𝐍𝐆 𝐊𝐖𝐄𝐍𝐓𝐀 𝐒𝐀 𝐋𝐀𝐇𝐀𝐓 ⚔️🩸, {mention}!\n\n"
     "👤 Name: {full_name}\n"
     "🆔 ID: <code>{user_id}</code>\n"
     "🔗 Username: {username}\n\n"
-    "Enjoy your stay! This message self-deletes in 1.5 minutes."
+    "🩸☠️ 𝐀𝐍𝐎𝐍𝐆 𝐊𝐀𝐈𝐋𝐀𝐍𝐆𝐀𝐍 𝐌𝐎, 𝐆𝐀𝐆𝐎? ☠️🩸 This message self-deletes in 1.5 minutes."
 )
 DEFAULT_GOODBYE = (
-    "👋 Goodbye, {mention} has left the group.\n\n"
+    "💩 SALAMAT LUMAYAS NA ANG INUTIL, {mention} has left the group.\n\n"
     "👤 Name: {full_name}\n"
     "🆔 ID: <code>{user_id}</code>\n"
     "🔗 Username: {username}\n\n"
-    "This message self-deletes in 1.5 minutes."
+    "🐷WAG KA NA BABALIK HAYOP KANG ANIMAL KAThis message self-deletes in 1.5 minutes."
 )
 
 logging.basicConfig(level=logging.INFO)
