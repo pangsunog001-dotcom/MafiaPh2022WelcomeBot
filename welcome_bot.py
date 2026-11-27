@@ -13,7 +13,7 @@ from telegram.ext import (
 )
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-DELETE_AFTER = 90  # 1 min 30 sec
+DELETE_AFTER = 60  # 1 min
 STORE_FILE = "greetings.json"
 
 DEFAULT_WELCOME = (
@@ -21,7 +21,7 @@ DEFAULT_WELCOME = (
     "👤 Name: {full_name}\n"
     "🆔 ID: <code>{user_id}</code>\n"
     "🔗 Username: {username}\n\n"
-    "🩸☠️ 𝐀𝐍𝐎𝐍𝐆 𝐊𝐀𝐈𝐋𝐀𝐍𝐆𝐀𝐍 𝐌𝐎, 𝐆𝐀𝐆𝐎? ☠️🩸 This message self-deletes in 1.5 minutes."
+    "🩸☠️ 𝐀𝐍𝐎𝐍𝐆 𝐊𝐀𝐈𝐋𝐀𝐍𝐆𝐀𝐍 𝐌𝐎, 𝐆𝐀𝐆𝐎? ☠️🩸 This message self-deletes in 1 minute."
 )
 DEFAULT_GOODBYE = (
     "💩 SALAMAT LUMAYAS NA ANG INUTIL, {mention} has left the group.\n\n"
