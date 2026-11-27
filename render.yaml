@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: welcome-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python welcome_bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false  # set it in the Render dashboard
